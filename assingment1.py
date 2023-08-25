@@ -87,7 +87,7 @@ print(s1.find("in"))
 string="my name is naheda"
 print(string.find('n',9,15))
 
-#rfind .....
+#rfind .....s
 string="iam an indian"
 print(string.rfind("i"))
 
@@ -107,7 +107,7 @@ print(s.replace("not","so"))
 
 print('---------------')
 
-#split of
+#split of ...........
 
 text="apple@banana@mango"
 s=text.split("@")
