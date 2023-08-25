@@ -87,7 +87,7 @@ print(s1.find("in"))
 string="my name is naheda"
 print(string.find('n',9,15))
 
-#rfind
+#rfind .....
 string="iam an indian"
 print(string.rfind("i"))
 
