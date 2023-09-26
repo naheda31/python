@@ -31,7 +31,7 @@ print("-----------------------------------------")
 
 
 #4.write a python program to delete element of given index in list.
-l1=list(eval(input( "enter any number is seperated by comma(,)in single line:")))
+l1=list(eval(input( "enter any number:")))
 index=eval(input("enter index position:"))
 l1.pop(index)
 print(l1)
@@ -41,7 +41,7 @@ print("-----------------------------------------")
 
 
 #5.write a python program to delete given elemet from the list
-l1=list(eval(input( "enter any number is seperated by comma(,)in single line:")))
+l1=list(eval(input( "enter any number:")))
 given_element=eval(input( "enter any number:"))
 l1.remove(given_element)
 print(l1)
@@ -52,7 +52,7 @@ print("-----------------------------------------")
 
 
 #6.write a python program to insert an elemet  at given index location
-l1=list(eval(input( "enter any number is seperated by comma(,)in single line:")))
+l1=list(eval(input( "enter any number:")))
 insert=eval(input("enter any number:"))
 element=eval(input("enter the element:"))
 l1.insert(insert,element)
@@ -61,8 +61,8 @@ print("-----------------------------------------")
 
 
 #7.write a python program to check the sizes of given two lists are same.
-l1=list(eval(input('enter a group of elements separated by comma(,) in a single line: ')))
-l2=list(eval(input('enter a group of elements separated by comma(,) in a single line: ')))
+l1=list(eval(input('enter a group of elements: ')))
+l2=list(eval(input('enter a group of elements: ')))
 if (len(l1) == len(l2)):
     print(' both the lists are same')
 else:
@@ -85,7 +85,7 @@ print("-----------------------------------------")
 
 
 #9. Write a Python program to convert a list of multiple integers into a single integer
-l=list(eval(input('enter a group of elements separated by comma(,) in a single line: ')))
+l=list(eval(input('enter a group of elements: ')))
 l1=''
 for i in l:
     l1+=str(i)
@@ -97,6 +97,6 @@ print("-----------------------------------------")
 
 
 #10.Write a Python program to remove duplicates from a list.
-l1=list(set(eval(input('enter a group of elements separated by comma(,) in a single line: '))))
+l1=list(set(eval(input('enter a group of elements: '))))
 print(l1)
 
