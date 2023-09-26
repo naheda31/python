@@ -1,4 +1,4 @@
-#1.write a python program 
+#1.write a python program to merge two list
 l1=eval(input("enter any element: "))
 l2=eval(input("enter any element: "))
 l3=l1+l2
