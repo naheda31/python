@@ -1,0 +1,44 @@
+class calculator:
+    def add(self, a, b):
+        return a + b
+
+    def sub(self, a, b):
+        return a - b
+
+    def mul(self, a, b):
+        return a * b
+
+    def div(self, a, b):
+        return a / b
+
+
+my_calc = calculator()
+
+while True:
+    print("1:add")
+    print("2:sub")
+    print("3:mul")
+    print("4:div")
+    print("5:exit")
+
+    ch = int(input("enter any number:"))
+
+    if ch in (1, 2, 3, 4, 5):
+        if ch == 5:
+            break
+
+        a = int(input("enter any number:"))
+        b = int(input("enter any number:"))
+
+        if ch == 1:
+            print(a, "+", b, "=", my_calc.add(a, b))
+        elif ch == 2:
+            print(a, "-", b, "=", my_calc.sub(a, b))
+        elif ch == 3:
+            print(a, "*", b, "=", my_calc.mul(a, b))
+        elif ch == 4:
+            print(a, "/", b, "=", my_calc.div(a, b))
+
+    else:
+        print("invalid input")
+
