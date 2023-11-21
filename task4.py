@@ -31,5 +31,5 @@ def get_details():
    if l=="add":
       add()
    elif l=="print":
-      print()
+      prnt()
 get_details()

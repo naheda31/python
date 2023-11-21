@@ -11,7 +11,6 @@ class calculator:
     def div(self, a, b):
         return a / b
 
-
 my_calc = calculator()
 
 while True:
@@ -26,7 +25,7 @@ while True:
     if ch in (1, 2, 3, 4, 5):
         if ch == 5:
             break
-
+        
         a = int(input("enter any number:"))
         b = int(input("enter any number:"))
 
