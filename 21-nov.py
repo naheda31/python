@@ -130,11 +130,6 @@ for i in word2:
         consonant +=1
 print("vowels: ", vowel , "consonant: ", consonant)        
 
-
-#Python program to print the highest frequency character in a String.
-
-#Python program to Replace First Occurrence Of Vowel With ‘-‘ in String
-
 #Python program to count alphabets, digits and special characters.
 word3="abcd123@#"
 alphbates=0
